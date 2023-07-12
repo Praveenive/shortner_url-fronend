@@ -45,7 +45,7 @@ export default function ShortnerUrl() {
             <button onClick={()=>{
                if(shortUrl){
                 {console.log(shortUrl)}
-                const url =`http://localhost:9090/url/shorturl/`+shortUrl
+                const url =`https://shortner-url-backend-5vh7.vercel.app/url/shorturl/`+shortUrl
                 console.log(url)
                 window.location.replace(url)}}}>
                   {shortUrl}</button>
