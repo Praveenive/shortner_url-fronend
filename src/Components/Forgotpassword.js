@@ -8,7 +8,7 @@ export default function Forgotpassword() {
     const [message,setMessage] = useState("")
     const update = {email}
     const handleForgot = async()=>{
-        const response = await fetch(`https://shortner-url-backend-5vh7.vercel.app/reset/forgot`,{
+        const response = await fetch(`https://shortner-url-backend-xrlb-git-master-praveenive.vercel.app/reset/forgot`,{
             method:"POST",
             body:JSON.stringify(update),
             headers:{

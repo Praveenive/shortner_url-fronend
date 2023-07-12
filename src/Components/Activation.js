@@ -10,7 +10,7 @@ const [error,setError] = useState("")
 const {id} =useParams()
     const accountActive = async()=>{
         const update = {accountStatus}
-        const res = await fetch(`https://shortner-url-backend-5vh7.vercel.app/user/activatestatus/${id}`,{
+        const res = await fetch(`https://shortner-url-backend-xrlb-git-master-praveenive.vercel.app/user/activatestatus/${id}`,{
             method:"PUT",
             body:JSON.stringify(update),
             headers:{

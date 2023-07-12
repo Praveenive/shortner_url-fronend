@@ -9,7 +9,7 @@ export default function Resetpassword() {
     const navigate = useNavigate()
     const resetpassword = async()=>{
         const update = {password}
-        const response = await fetch(`https://shortner-url-backend-5vh7.vercel.app/user/resetpassword/${id}`,{
+        const response = await fetch(`https://shortner-url-backend-xrlb-git-master-praveenive.vercel.app/user/resetpassword/${id}`,{
             method:"PUT",
             body:JSON.stringify(update),
             headers:{

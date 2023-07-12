@@ -17,7 +17,7 @@ export default function ShortnerUrl() {
    console.log(token)
     const handleUrl = async()=>{
         const add = {LongUrl:longUrl}
-        const res = await fetch(`https://shortner-url-backend-5vh7.vercel.app/url/longUrl`,{
+        const res = await fetch(`https://shortner-url-backend-xrlb-git-master-praveenive.vercel.app/url/longUrl`,{
             method:"POST",
             body:JSON.stringify(add),
             headers:{
@@ -45,7 +45,7 @@ export default function ShortnerUrl() {
             <button onClick={()=>{
                if(shortUrl){
                 {console.log(shortUrl)}
-                const url =`https://shortner-url-backend-5vh7.vercel.app/url/shorturl/`+shortUrl
+                const url =`https://shortner-url-backend-xrlb-git-master-praveenive.vercel.app/url/shorturl/`+shortUrl
                 console.log(url)
                 window.location.replace(url)}}}>
                   {shortUrl}</button>

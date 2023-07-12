@@ -13,7 +13,7 @@ export default function Signup() {
     const newStudent = {
       firstname,lastname,email,password
     }
-    const response = await fetch(`https://shortner-url-backend-5vh7.vercel.app/user/signup`,{
+    const response = await fetch(`https://shortner-url-backend-xrlb-git-master-praveenive.vercel.app/user/signup`,{
       method:"POST",
       body:JSON.stringify(newStudent),
       headers:{

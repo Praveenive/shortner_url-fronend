@@ -7,7 +7,7 @@ export default function Redirectactivate() {
     const [message,setMessage] = useState("")
     const activation =async()=>{
         const mail = {email}
-        const response =await fetch(`https://shortner-url-backend-5vh7.vercel.app/user/activate`,{
+        const response =await fetch(`https://shortner-url-backend-xrlb-git-master-praveenive.vercel.app/user/activate`,{
             method:"POST",
             body:JSON.stringify(mail),
             headers:{
